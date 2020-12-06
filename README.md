@@ -75,7 +75,7 @@
 - In order to install all packages follow the steps below:
 
 ```shell
-$ cd IntelliCrowd
+$ cd ai4dev_intelliCrowd
 ```
 
 > install the client packages
@@ -114,7 +114,7 @@ $ npm install
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/Samielleuch/ai4dev_intellicrowd/compare/" target="_blank">`https://github.com/Samielleuch/IntelliCrowd/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/Samielleuch/ai4dev_intellicrowd/compare/" target="_blank">`https://github.com/Samielleuch/ai4dev_intellicrowd/compare/`</a>.
 
 ---
 
