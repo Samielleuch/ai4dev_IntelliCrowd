@@ -2,19 +2,15 @@
 <h1 align="center">
   <br>
  
-</a>
-  <br>
-  IntelliCrowd
-  <br>
-</h1>
+   <img src="https://i.imgur.com/w1ySDkK.png" height='550px' title="IntelliCrowd" alt="IntelliCrowd">
 
-<h4 align="center">A CrowdFunding FinTech solution using advanced AI algorithmes to insure Fraud detection and Success Scoring </h4>
+</h1>
 
 
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 <p align="center">
   <a href="https://sonarcloud.io/dashboard?id=Samielleuch_Neghlbouh">
-    <img
+    <imghttps://imgur.com/XykZ92q
 	 src="https://sonarcloud.io/api/project_badges/measure?project=Samielleuch_Neghlbouh&metric=alert_status">
   </a>
  <a href="https://sonarcloud.io/dashboard?id=Samielleuch_Neghlbouh">
@@ -40,6 +36,7 @@
 ---
 
 ## Developed Using 
+- AI/ML/NLP
 - NodeJs ExpressJs PassportJs JWT and Mongoose for the Backend
 - VueJs Vuex Vuetify for the Frontend 
 ---
@@ -121,6 +118,11 @@ $ npm install
 ## Team
 
 
+<h1 align="center">
+ 
+   <img src="https://i.imgur.com/Ifpe9eb.png" height='550px' title="IntelliCrowd" alt="IntelliCrowd">
+
+</h1>
 
 - If you want to help, you can contact us at anytime.
 
@@ -139,7 +141,11 @@ $ npm install
 
 Reach out to us at any moment!
 
-- LinkedIn at <a href="https://www.linkedin.com/in/sami-elleuch/" target="_blank">`linkedin.com/in/sami-elleuch/`</a>
+- <a href="https://www.linkedin.com/in/sami-elleuch/" target="_blank">`linkedin.com/in/sami-elleuch/`</a>
+- <a href="https://www.linkedin.com/in/mehdimabrouki/" target="_blank">`linkedin.com/in/mehdimabrouki/`</a>
+- <a href="https://www.linkedin.com/in/amira-dridi-748528179/" target="_blank">`linkedin.com/in/amira-dridi-748528179/`</a>
+- <a href="https://www.linkedin.com/in/fouratthamri/" target="_blank">`linkedin.com/in/fouratthamri/`</a>
+- <a href="https://www.linkedin.com/in/oumayma-jaziri-70061a12a/" target="_blank">`linkedin.com/in/oumayma-jaziri-70061a12a/`</a>
 
 ---
 
