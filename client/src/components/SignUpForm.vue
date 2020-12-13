@@ -11,7 +11,7 @@
       <!-- icon -->
       <v-row justify="center">
         <v-col align="center" cols="12">
-          <v-img src="../assets/SignIn.png" max-width="300"></v-img>
+          <v-img src="../assets/clients.jpg" max-width="700"></v-img>
         </v-col>
       </v-row>
 
@@ -263,6 +263,9 @@ body * {
 
 .font-login {
   font-size: 2rem !important;
+font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .font-login-popup2 {
