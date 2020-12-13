@@ -17,29 +17,19 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - checkout
+      - checkout 
       # Download and cache dependencies
-      - run:
-        name: checking out to frontend folder
-        command: cd client
 
-      - run:
-        name: check folder
-        command: pwd
-        
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
+      - run: cd client
 
-      - run:
-        name: installing dependencies
-        command: npm install
-
-      - run:
-        name: building the vueJs app
-        command: npm run build
+      - run: pwd
+        
+      - run: npm install
 
       - save_cache:
           paths:
@@ -48,4 +38,5 @@ jobs:
             - package.json
           key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }} 
 
+      - run: npm run build
 
