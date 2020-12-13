@@ -6,7 +6,8 @@
         <strong style="color: #E0B47F;">Crowd</strong>
       </h1>
       <h1 class="text-left Subtext " style="color: #E0B47F;">
-        an intelligent crowdfunding platform that increases profit, visiblity, trust and security.
+        an intelligent crowdfunding platform that increases profit, visiblity,
+        trust and security.
       </h1>
     </v-col>
     <v-col
