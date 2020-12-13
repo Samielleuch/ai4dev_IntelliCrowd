@@ -211,14 +211,6 @@ export default {
           name: "Discover",
           icon: "fab fa-wpexplorer",
           link: "Catalogue"
-        },
-        {
-          name: "For Helpers",
-          icon: "fas fa-people-carry",
-          link:
-            this.$store.state.currentUser == undefined
-              ? "SignUpSource"
-              : "DashboardOrg"
         }
       ],
       loginButton: {

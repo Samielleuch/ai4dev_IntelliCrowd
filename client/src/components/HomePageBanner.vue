@@ -2,11 +2,11 @@
   <v-row align-content="center" class="fill-height" justify="start">
     <v-col class=" mt-n12 customposition" cols=" 12 " md="6" justify="end">
       <h1 class=" HeadingText mt-n12 pt-0">
-        Fin
-        <strong style="color: #E0B47F;"> IT</strong>
+        Intelli
+        <strong style="color: #E0B47F;">Crowd</strong>
       </h1>
       <h1 class="text-left Subtext " style="color: #E0B47F;">
-        Our Newest Crowd Sourcing / Crowd funding Solution.
+        an intelligent crowdfunding platform that increases profit , visiblity ,trust and security.
       </h1>
     </v-col>
     <v-col
@@ -67,6 +67,6 @@ export default {
   color: #ffffff;
 }
 .customposition {
-  margin-left: 1000px !important;
+  margin-left: 1050px !important;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <v-hover v-slot:default="{ hover }">
-    <v-card width="350" class="mx-auto" :elevation="hover ? 16 : 2">
+    <v-card width="400" class="mx-auto rounded" :elevation="hover ? 16 : 2">
       <v-list-item>
         <v-list-item-avatar color="#012116"></v-list-item-avatar>
         <v-list-item-content>
@@ -43,4 +43,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.rounded {
+      border-radius: 10% !important;
+
+}
+</style>

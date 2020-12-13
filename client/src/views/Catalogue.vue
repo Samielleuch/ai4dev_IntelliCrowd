@@ -61,17 +61,17 @@
           ></v-text-field></v-col
       ></v-row>
     </v-toolbar>
-    <v-row class="mx-12">
+    <v-row class="mx-12 my-7">
       <v-col md="4" sm="11"> <Espace /></v-col>
       <v-col md="4" sm="11"> <Espaces /></v-col>
       <v-col md="4" sm="11"> <Espac /></v-col>
     </v-row>
-    <v-row>
+    <v-row class="mx-12 my-7">
       <v-col md="4" sm="11" flex="4"> <Espaces /></v-col>
       <v-col md="4" sm="11" flex="4"> <Espac /></v-col>
       <v-col md="4" sm="11" flex="4"> <Espace /></v-col>
     </v-row>
-    <v-row>
+    <v-row class="mx-12 my-7">
       <v-col md="4" sm="11" flex="4"> <Espac /></v-col>
       <v-col md="4" sm="11" flex="4"> <Espace /></v-col>
       <v-col md="4" sm="11" flex="4"> <Espaces /></v-col>
