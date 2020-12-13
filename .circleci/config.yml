@@ -40,3 +40,8 @@ jobs:
 
       - run: npm run build
 
+# Orchestrate our job run sequence
+workflows:
+  build_and_test:
+    jobs:
+      - build-job
