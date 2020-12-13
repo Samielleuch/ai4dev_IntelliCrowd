@@ -263,7 +263,7 @@ body * {
 
 .font-login {
   font-size: 2rem !important;
-font-family: Quicksand;
+  font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
 }
