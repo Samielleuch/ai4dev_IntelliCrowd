@@ -13,7 +13,7 @@
           <v-text-field
             v-model="ricerca"
             @keyup="updateData()"
-            label="chercher"
+            label="Search"
             append-icon="fas fa-search"
             outlined
           ></v-text-field></v-col
@@ -85,16 +85,16 @@
             <thead color="#012116">
               <tr color="#012116">
                 <th class="text-left">
-                  Nom de l'entreprise
+                  Buisness
                 </th>
                 <th class="text-left">
-                  Montant investit
+                  Invested Sum
                 </th>
                 <th class="text-left">
                   Date
                 </th>
                 <th class="text-left">
-                  Rating de l'entreprise
+                  Rating
                 </th>
               </tr>
             </thead>

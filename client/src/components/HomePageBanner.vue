@@ -6,7 +6,7 @@
         <strong style="color: #E0B47F;">Crowd</strong>
       </h1>
       <h1 class="text-left Subtext " style="color: #E0B47F;">
-        an intelligent crowdfunding platform that increases profit , visiblity ,trust and security.
+        an intelligent crowdfunding platform that increases profit, visiblity, trust and security.
       </h1>
     </v-col>
     <v-col
@@ -45,6 +45,8 @@ export default {
   font-size: 18px !important;
   line-height: 22px !important;
   color: #ffffff;
+  width: 80%;
+  padding-left: 8px;
 }
 
 .btnHome1 {
@@ -67,6 +69,28 @@ export default {
   color: #ffffff;
 }
 .customposition {
-  margin-left: 1050px !important;
+  margin-left: 56vw !important;
+}
+@media only screen and (max-width: 1500px) {
+  .HeadingText {
+    font-size: 60px;
+    line-height: 1em;
+  }
+
+  .Subtext {
+    font-size: 16px !important;
+    line-height: 1em !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .HeadingText {
+    font-size: 46px;
+    line-height: 1em;
+  }
+
+  .Subtext {
+    font-size: 12px !important;
+    line-height: 1em !important;
+  }
 }
 </style>

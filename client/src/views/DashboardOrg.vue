@@ -13,7 +13,7 @@
           <v-text-field
             v-model="ricerca"
             @keyup="updateData()"
-            label="chercher"
+            label="Search"
             append-icon="fas fa-search"
             outlined
           ></v-text-field></v-col

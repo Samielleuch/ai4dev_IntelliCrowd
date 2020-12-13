@@ -16,7 +16,7 @@
             <template v-slot:activator="{ on }">
               <v-text-field
                 v-model="date"
-                label="Debut"
+                label="Date"
                 prepend-icon="fa fa-calendar"
                 readonly
                 v-on="on"
@@ -41,21 +41,21 @@
               'artisanat',
               '...'
             ]"
-            label="type du projet"
+            label="Project Category"
           ></v-select
         ></v-col>
         <v-col cols="12" sm="2" style="padding-top: 30px"
           ><v-select
             v-model="steps"
             :items="['Tunis', 'Bizerte', 'Sousse', '...']"
-            label="Ville"
+            label="City"
           ></v-select
         ></v-col>
         <v-col sm="4">
           <v-text-field
             v-model="ricerca"
             @keyup="updateData()"
-            label="chercher"
+            label="Search"
             append-icon="fas fa-search"
             outlined
           ></v-text-field></v-col
