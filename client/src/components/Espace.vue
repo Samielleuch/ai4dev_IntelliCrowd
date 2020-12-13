@@ -46,7 +46,6 @@ export default {
 
 <style scoped>
 .rounded {
-      border-radius: 10% !important;
-
+  border-radius: 10% !important;
 }
 </style>

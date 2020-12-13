@@ -13,7 +13,7 @@
           <v-text-field
             v-model="ricerca"
             @keyup="updateData()"
-            label="chercher"
+            label="Search"
             append-icon="fas fa-search"
             outlined
           ></v-text-field></v-col
@@ -48,7 +48,7 @@
       <!-- SPARK LINE-->
       <v-col md="6" sm="11">
         <v-row>
-          <v-col align="center" class="StatText"> Cumulative pledges </v-col>
+          <v-col align="center" class="StatText"> Cumulative Pledges </v-col>
         </v-row>
         <v-sheet color="rgba(250, 250, 250, .12)">
           <v-sparkline
@@ -74,7 +74,7 @@
       <v-col md="4" sm="11">
         <v-row>
           <v-col align="center" class="StatText">
-            Number Of projects per Month
+            Number Of Projects per Month
           </v-col>
         </v-row>
         <v-sheet color="rgba(250, 250, 250, .12)">
@@ -96,7 +96,7 @@
       <v-col md="4" sm="11">
         <v-row>
           <v-col align="center" class="StatText">
-            Number Of projects per Month
+            Number Of Projects Per Month
           </v-col>
         </v-row>
         <v-sheet color="rgba(250, 250, 250, .12)">
@@ -118,7 +118,7 @@
       <v-col md="4" sm="11">
         <v-row>
           <v-col align="center" class="StatText">
-            Number Of projects per Month
+            Number Of Projects Per Month
           </v-col>
         </v-row>
         <v-sheet color="rgba(250, 250, 250, .12)">
