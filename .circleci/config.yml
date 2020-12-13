@@ -15,7 +15,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/ai4dev_IntelliCrowd/client
+    working_directory: ~/ai4dev_IntelliCrowd
 
     steps:
       - checkout 
@@ -26,9 +26,9 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
-      - run: pwd
-      - run: ls
-      - run: npm install
+      - run: cd client && pwd
+      - run: cd client && ls
+      - run: cd client && npm install
       - save_cache:
           paths:
             - node_modules
@@ -36,7 +36,7 @@ jobs:
             - package.json
           key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }} 
 
-      - run: npm run build
+      - run: cd client && npm run build
 
 # Orchestrate our job run sequence
 workflows:
