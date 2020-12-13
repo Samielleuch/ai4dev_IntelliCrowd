@@ -136,12 +136,13 @@
               style=" padding-top: 30px;padding-left: 190px"
             >
               <v-toolbar height="90px" width="700px">
-                
-                 <v-list-item-avatar>
-                  <v-img src="https://cdn.vuetifyjs.com/images/lists/1.jpg"></v-img>
-                  </v-list-item-avatar>
-            <v-divider></v-divider>
-            
+                <v-list-item-avatar>
+                  <v-img
+                    src="https://cdn.vuetifyjs.com/images/lists/1.jpg"
+                  ></v-img>
+                </v-list-item-avatar>
+                <v-divider></v-divider>
+
                 <v-toolbar-title style="padding-right: 20px  "
                   >" I believe that this project has a great future that's why i
                   invested in it "
@@ -176,7 +177,7 @@
             </v-card>
           </v-tab-item>
           <v-tab-item :key="4" :value="'tab-' + 4">
-            <v-card height="430px" 
+            <v-card height="430px"
               ><v-row style="padding-top: 50px"
                 ><v-col>
                   <v-card>
@@ -205,11 +206,13 @@
             </v-card>
           </v-tab-item>
           <v-tab-item :key="2" :value="'tab-' + 2">
-            <v-card height="400px" >
+            <v-card height="400px">
               <v-row align="center" justify="center">
                 <v-col align="center" justify="center" cols="4">
                   <v-card cla>
-                    <v-toolbar-title style="padding-right: 20px  " class="toptext"
+                    <v-toolbar-title
+                      style="padding-right: 20px  "
+                      class="toptext"
                       >" What's the purpose of this project ? "
                     </v-toolbar-title>
                   </v-card>
@@ -265,9 +268,9 @@ export default {
       prevIcon: false,
       nextIcon: false,
       right: false,
-      tabs: 4,
+      tabs: 4
     };
-  },
+  }
 };
 </script>
 
