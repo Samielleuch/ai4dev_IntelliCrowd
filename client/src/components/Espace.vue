@@ -21,6 +21,15 @@
         <br />
         Category : Tourism
       </v-card-text>
+      <v-row  justify="center">
+        <v-col align="center">
+       <v-card-text style="color: #030a05 ;"  class="Subtext"
+        >
+        Success Score :   <span style="color: #995105 ;" >40% </span>
+      </v-card-text>
+        </v-col>
+      </v-row>
+
 
       <v-card-actions>
         <v-btn text color="#977C1E" to="/ProjectPage">
@@ -47,5 +56,11 @@ export default {
 <style scoped>
 .rounded {
   border-radius: 10% !important;
+}
+.Subtext {
+  font-family: Quicksand;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
 }
 </style>
